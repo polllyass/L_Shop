@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "target": "ES2015",
+    "module": "ES2015",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "outDir": "./public/js",
+    "rootDir": "./src",
+    "lib": [ "DOM", "DOM.Iterable", "ESNext" ]
+  },
+  "include": [ "src/**/*" ],
+  "exclude": [ "node_modules" ]
+}

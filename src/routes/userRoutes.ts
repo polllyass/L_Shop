@@ -1,0 +1,11 @@
+import { Router } from 'express';
+import { UserController } from '../controllers/userController';
+import { AuthMiddleware } from '../middleware/auth';
+const router = Router();
+const userController = new UserController();
+const authMiddleware = new AuthMiddleware();
+router.post('/register', userController.register);
+router.post('/login', userController.login);
+router.post('/logout', userController.logout);
+router.get('/me', authMiddleware.checkAuth, userController.getCurrentUser);
+export default router;

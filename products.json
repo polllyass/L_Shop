@@ -1,0 +1,102 @@
+[
+  {
+    "id": "1",
+    "name": "Ноутбук ASUS ROG",
+    "description": "Игровой ноутбук с RTX 3060, 16GB RAM, 512GB SSD",
+    "price": 1200,
+    "category": "electronics",
+    "inStock": true,
+    "image": "/images/laptop.jpg",
+    "createdAt": "2024-01-15T10:00:00.000Z"
+  },
+  {
+    "id": "2",
+    "name": "Смартфон iPhone 13",
+    "description": "128GB, черный, A15 Bionic",
+    "price": 800,
+    "category": "electronics",
+    "inStock": true,
+    "image": "/images/iphone.jpg",
+    "createdAt": "2024-01-16T11:30:00.000Z"
+  },
+  {
+    "id": "3",
+    "name": "Наушники Sony WH-1000XM4",
+    "description": "Беспроводные шумоподавляющие наушники",
+    "price": 350,
+    "category": "electronics",
+    "inStock": true,
+    "image": "/images/sony.jpg",
+    "createdAt": "2024-01-17T09:15:00.000Z"
+  },
+  {
+    "id": "4",
+    "name": "Книга 'TypeScript Guide'",
+    "description": "Полное руководство по TypeScript",
+    "price": 45,
+    "category": "books",
+    "inStock": false,
+    "image": "/images/ts-book.jpg",
+    "createdAt": "2024-01-18T14:20:00.000Z"
+  },
+  {
+    "id": "5",
+    "name": "Книга 'Clean Code'",
+    "description": "Роберт Мартин - чистая архитектура",
+    "price": 50,
+    "category": "books",
+    "inStock": true,
+    "image": "/images/clean-code.jpg",
+    "createdAt": "2024-01-19T08:45:00.000Z"
+  },
+  {
+    "id": "6",
+    "name": "Футболка Nike",
+    "description": "Спортивная футболка, хлопок 100%",
+    "price": 25,
+    "category": "clothing",
+    "inStock": true,
+    "image": "/images/nike-tshirt.jpg",
+    "createdAt": "2024-01-20T16:30:00.000Z"
+  },
+  {
+    "id": "7",
+    "name": "Кроссовки Adidas",
+    "description": "Беговые кроссовки, размеры 40-45",
+    "price": 120,
+    "category": "clothing",
+    "inStock": true,
+    "image": "/images/adidas.jpg",
+    "createdAt": "2024-01-21T12:10:00.000Z"
+  },
+  {
+    "id": "8",
+    "name": "Кофеварка DeLonghi",
+    "description": "Автоматическая капсульная кофеварка",
+    "price": 180,
+    "category": "home",
+    "inStock": false,
+    "image": "/images/delonghi.jpg",
+    "createdAt": "2024-01-22T10:00:00.000Z"
+  },
+  {
+    "id": "9",
+    "name": "Плед IKEA",
+    "description": "Мягкий плед, 150x200 см",
+    "price": 30,
+    "category": "home",
+    "inStock": true,
+    "image": "/images/blanket.jpg",
+    "createdAt": "2024-01-23T13:40:00.000Z"
+  },
+  {
+    "id": "10",
+    "name": "Монитор LG 27'",
+    "description": "4K IPS, 60Hz, HDR",
+    "price": 400,
+    "category": "electronics",
+    "inStock": true,
+    "image": "/images/lg-monitor.jpg",
+    "createdAt": "2024-01-24T09:30:00.000Z"
+  }
+]
